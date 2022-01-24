@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link href="./CSS/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!--<div class="test2"> <img src="./imagens/assador.jpg" width="270px" height="300px"></div>-->
+    
+
+    <div class="container">
+        
+        <header>
+            <h1 class="title-1">Churrascômetro</h1>
+            <div class="test1"> <img src="./imagens/familiaAssando.jpg" width="360px" height="250px"></div>
+            <p class="p1">
+                Bem-vindo ao Churrascômetro!!!
+            </p>
+            <p class="p2">
+                Esse site foi criado para você ter uma ideia do que precisará para fazer um delicioso churrasco e a quantidade média de cada item. Nos três campos abaixo, coloque a quantidade de Adultos, Crianças e a Duração que sua festa terá. O resultado ficará logo abaixo.
+            </p>
+        </header>
+
+        <main>
+            <div class="inp">
+            <h2>Adultos</h2>
+                <input id="adl" type="number" name="adulto" placeholder="Adultos" min="0" value="0">
+            </div>
+
+            <div class="inp">
+            <h2>Crianças</h2>
+                <input id="cri" type="number" name="criança" placeholder="Crianças" min="0" value="0">
+            </div>
+
+            <div class="inp">
+                <h2>Duração</h2>
+                <input id="dur" type="number" name="duracao" placeholder="Duração" min="0" value="0">
+            </div>
+            <br>
+            <button id="bnt"onclick="calc()">Calcular</button>
+        </main>
+        <div>
+            <p id="title-2">
+                Você vai precisar de:
+            </p>
+        </div>
+        <div class="resul">
+            <p class="lista">
+                ................................
+            </p>
+        </div>
+        <footer>
+            <p>Feito por <a href="https://gustabolseiro.github.io/Social-tree/">Gustavo Pinheiro</a> 😎 em 18/01/2022.</p>
+        </footer>
+    </div>
+<script src="./Script/script.js" ></script>
+</body>
+</html>
